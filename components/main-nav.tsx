@@ -18,9 +18,9 @@ export const MainNav = ({
             active: pathname === '/'
         },
         {
-            href: `/agendamentos`,
+            href: `/meus-agendamentos`,
             label: 'Meus Agendamentos',
-            active: pathname === '/agendamentos'
+            active: pathname === '/meus-agendamentos'
         },
         {
             href: `/historico`,
